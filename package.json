@@ -1,0 +1,24 @@
+{
+  "name": "noderookie",
+  "version": "1.0.0",
+  "description": "nodejs学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renrenguiwei/nodeRookie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renrenguiwei/nodeRookie/issues"
+  },
+  "homepage": "https://github.com/renrenguiwei/nodeRookie#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0"
+  }
+}
