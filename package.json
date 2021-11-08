@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/renrenguiwei/nodeRookie#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "koa": "^2.13.4",
     "koa-mount": "^4.0.0",
     "koa-static": "^5.0.0"
