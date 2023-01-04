@@ -25,7 +25,5 @@
     "koa-static": "^5.0.0",
     "lodash": "^4.17.21"
   },
-  "devDependencies": {
-    "jquery": "^3.6.3"
-  }
+  "devDependencies": {}
 }
