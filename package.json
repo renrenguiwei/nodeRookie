@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp_v": "gulp -v"
+    "runjs": "node ./02-tools/02-npm/03-script/script1.js && node ./02-tools/02-npm/03-script/script2.js"
   },
   "repository": {
     "type": "git",
