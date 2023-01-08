@@ -9,4 +9,10 @@
    * 答：静态资源文件都指向`localhost:3000`，无法通过`./source/static`找到相对应的引用相对路径
 
 ### npm
-#### 安装git仓库方法 https://blog.csdn.net/yiifaa/article/details/53784427
+- 安装git仓库方法 https://blog.csdn.net/yiifaa/article/details/53784427
+
+
+### node package versions
+
+- 12.1.2
+- major: 12, minor: 1, path: 2 // 奇数不稳定补丁，偶数稳定补丁
