@@ -4,8 +4,8 @@
   "description": "nodejs学习",
   "main": "index.js",
   "scripts": {
-    "runjs": "node ./02-tools/02-npm/03-script/script1.js && node ./02-tools/02-npm/03-script/script2.js",
-    "test": "node ./02-tools/02-npm/03-script/script.js",
+    "runjs": "node 01-npm/03-script/script1.js && node 01-npm/02-npm/03-script/script2.js",
+    "test": "node 01-npm/03-script/script.js",
     "start": "echo $npm_package_config_env"
   },
   "repository": {
