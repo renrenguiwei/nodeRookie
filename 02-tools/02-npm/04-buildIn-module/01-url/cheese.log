@@ -1,0 +1,24 @@
+[2023-02-07T14:49:30.641] [DEBUG] cheese - Url {
+  protocol: 'https:',
+  slashes: true,
+  auth: null,
+  host: 'www.bilibili.com',
+  port: null,
+  hostname: 'www.bilibili.com',
+  hash: null,
+  search: '?p=15&spm_id_from=333.880.my_history.page.click&vd_source=2cc36b3fffba891a5e48db81cd83b8fd',
+  query: 'p=15&spm_id_from=333.880.my_history.page.click&vd_source=2cc36b3fffba891a5e48db81cd83b8fd',
+  pathname: '/video/BV1ca4y1n7u3/',
+  path: '/video/BV1ca4y1n7u3/?p=15&spm_id_from=333.880.my_history.page.click&vd_source=2cc36b3fffba891a5e48db81cd83b8fd',
+  href: 'https://www.bilibili.com/video/BV1ca4y1n7u3/?p=15&spm_id_from=333.880.my_history.page.click&vd_source=2cc36b3fffba891a5e48db81cd83b8fd'
+}
+[2023-02-07T14:50:26.003] [DEBUG] cheese - https://www.bilibili.com/video/BV1ca4y1n7u3/?p=15&spm_id_from=333.880.my_history.page.click&vd_source=2cc36b3fffba891a5e48db81cd83b8fd
+[2023-02-07T14:51:28.932] [DEBUG] cheese - https://www.baidu.com/
+[2023-02-07T14:51:45.931] [DEBUG] cheese - https://www.baidu.com/b
+[2023-02-07T14:56:00.383] [DEBUG] cheese - URLSearchParams {
+  'https://www.bilibili.com/video/BV1ca4y1n7u3/?p' => '15',
+  'spm_id_from' => '333.880.my_history.page.click',
+  'vd_source' => '2cc36b3fffba891a5e48db81cd83b8fd' }
+[2023-02-07T14:56:35.752] [DEBUG] cheese - null
+[2023-02-07T14:57:30.597] [DEBUG] cheese - 15
+[2023-02-07T14:57:41.175] [DEBUG] cheese - 15

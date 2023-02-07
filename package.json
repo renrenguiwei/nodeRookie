@@ -32,5 +32,7 @@
   "config": {
     "env": "production"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "log4js": "^6.7.1"
+  }
 }
