@@ -1,1 +1,17 @@
 [2023-02-08T10:25:02.118] [DEBUG] cheese - [Object: null prototype] { name: 'claus', sex: 'not tell you' }
+[2023-02-08T21:41:00.234] [DEBUG] cheese - {}
+[2023-02-08T21:41:43.061] [DEBUG] cheese - [Object: null prototype] { '{}': '' }
+[2023-02-08T21:42:40.094] [DEBUG] cheese - [Object: null prototype] { '{}': '' }
+[2023-02-08T21:43:32.381] [DEBUG] cheese - [Object: null prototype] { '{}': '' }
+[2023-02-08T21:44:18.326] [DEBUG] cheese - [Object: null prototype] { '{}': '' }
+[2023-02-08T21:45:04.184] [DEBUG] cheese - [Object: null prototype] { '{}': '' }
+[2023-02-09T08:56:33.975] [DEBUG] cheese - [Object: null prototype] {
+  '{"name":"claus","sex":"not tell you"}': ''
+}
+[2023-02-09T08:58:10.762] [DEBUG] cheese - [Object: null prototype] {
+  '{"name":"claus","sex":"not tell you"}': ''
+}
+[2023-02-09T08:58:36.509] [DEBUG] cheese - { name: 'claus', sex: 'not tell you' }
+[2023-02-09T09:00:20.185] [DEBUG] cheese - { name: 'claus', sex: 'not tell you' }
+[2023-02-09T09:00:24.313] [DEBUG] cheese - { name: 'claus', sex: 'not tell you' }
+[2023-02-09T09:01:57.859] [DEBUG] cheese - { name: 'claus', sex: 'not tell you' }
