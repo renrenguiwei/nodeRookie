@@ -1,10 +1,35 @@
-const log4js = require("log4js");
-log4js.configure({
-    appenders: { cheese: { type: "file", filename: "cheese.log" } },
-    categories: { default: { appenders: ["cheese"], level: "error" } },
-});
+console.log('1');
+setTimeout(function() {
+    console.log('2');
+    process.nextTick(function() {
+        console.log('3');
+    })
+    new Promise(function(resolve) {
+        console.log('4');
+        resolve();
+    }).then(function() {
+        console.log('5')
+    })
+})
+process.nextTick(function() {
+    console.log('6');
+})
+new Promise(function(resolve) {
+    console.log('7');
+    resolve();
+}).then(function() {
+    console.log('8')
+})
 
-const logger = log4js.getLogger("cheese");
-logger.level = 'debug'
-
-module.exports = logger
+setTimeout(function() {
+    console.log('9');
+    process.nextTick(function() {
+        console.log('10');
+    })
+    new Promise(function(resolve) {
+        console.log('11');
+        resolve();
+    }).then(function() {
+        console.log('12')
+    })
+})
