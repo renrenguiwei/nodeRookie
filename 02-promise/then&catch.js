@@ -12,6 +12,10 @@ new Promise((resolve, reject) => {
     console.log(e)
 }).then(() => {
     console.log('还能继续执行吗？')
+}).finally(() => {
+    console.log('finally')
+}).finally(() => {
+    console.log('finally2')
 })
 
 // resolve打印
